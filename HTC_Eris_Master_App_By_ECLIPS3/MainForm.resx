@@ -1,0 +1,1074 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnReboot_Phone.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="btnReboot_Phone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 147</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnReboot_Phone.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnReboot_Phone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 22</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnReboot_Phone.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnReboot_Phone.Text" xml:space="preserve">
+    <value>Reboot</value>
+  </data>
+  <data name="&gt;&gt;btnReboot_Phone.Name" xml:space="preserve">
+    <value>btnReboot_Phone</value>
+  </data>
+  <data name="&gt;&gt;btnReboot_Phone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReboot_Phone.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnReboot_Phone.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="lblMainHeading.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMainHeading.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 94</value>
+  </data>
+  <data name="lblMainHeading.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 13</value>
+  </data>
+  <data name="lblMainHeading.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblMainHeading.Text" xml:space="preserve">
+    <value>All in one simple application for the Eris!</value>
+  </data>
+  <data name="&gt;&gt;lblMainHeading.Name" xml:space="preserve">
+    <value>lblMainHeading</value>
+  </data>
+  <data name="&gt;&gt;lblMainHeading.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMainHeading.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblMainHeading.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="lblReboot_Options.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblReboot_Options.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 122</value>
+  </data>
+  <data name="lblReboot_Options.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 13</value>
+  </data>
+  <data name="lblReboot_Options.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblReboot_Options.Text" xml:space="preserve">
+    <value>Rebooting Phone Options</value>
+  </data>
+  <data name="&gt;&gt;lblReboot_Options.Name" xml:space="preserve">
+    <value>lblReboot_Options</value>
+  </data>
+  <data name="&gt;&gt;lblReboot_Options.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblReboot_Options.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblReboot_Options.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="btnReboot_Recovery.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 175</value>
+  </data>
+  <data name="btnReboot_Recovery.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 22</value>
+  </data>
+  <data name="btnReboot_Recovery.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnReboot_Recovery.Text" xml:space="preserve">
+    <value>Recovery</value>
+  </data>
+  <data name="&gt;&gt;btnReboot_Recovery.Name" xml:space="preserve">
+    <value>btnReboot_Recovery</value>
+  </data>
+  <data name="&gt;&gt;btnReboot_Recovery.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReboot_Recovery.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnReboot_Recovery.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="btnReboot_Bootloader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 203</value>
+  </data>
+  <data name="btnReboot_Bootloader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 22</value>
+  </data>
+  <data name="btnReboot_Bootloader.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnReboot_Bootloader.Text" xml:space="preserve">
+    <value>Bootloader</value>
+  </data>
+  <data name="&gt;&gt;btnReboot_Bootloader.Name" xml:space="preserve">
+    <value>btnReboot_Bootloader</value>
+  </data>
+  <data name="&gt;&gt;btnReboot_Bootloader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReboot_Bootloader.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnReboot_Bootloader.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="lblRootingPhone.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRootingPhone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 122</value>
+  </data>
+  <data name="lblRootingPhone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 13</value>
+  </data>
+  <data name="lblRootingPhone.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblRootingPhone.Text" xml:space="preserve">
+    <value>Rooting The Phone</value>
+  </data>
+  <data name="&gt;&gt;lblRootingPhone.Name" xml:space="preserve">
+    <value>lblRootingPhone</value>
+  </data>
+  <data name="&gt;&gt;lblRootingPhone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRootingPhone.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblRootingPhone.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="btnRootStep2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRootStep2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 191</value>
+  </data>
+  <data name="btnRootStep2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 37</value>
+  </data>
+  <data name="btnRootStep2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnRootStep2.Text" xml:space="preserve">
+    <value>Step 2 - Get Phone Rooted</value>
+  </data>
+  <data name="&gt;&gt;btnRootStep2.Name" xml:space="preserve">
+    <value>btnRootStep2</value>
+  </data>
+  <data name="&gt;&gt;btnRootStep2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRootStep2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnRootStep2.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="btnRootStep3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 233</value>
+  </data>
+  <data name="btnRootStep3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 37</value>
+  </data>
+  <data name="btnRootStep3.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnRootStep3.Text" xml:space="preserve">
+    <value>Step 3 - Recovery Install</value>
+  </data>
+  <data name="&gt;&gt;btnRootStep3.Name" xml:space="preserve">
+    <value>btnRootStep3</value>
+  </data>
+  <data name="&gt;&gt;btnRootStep3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRootStep3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnRootStep3.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="btnRootStep4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 276</value>
+  </data>
+  <data name="btnRootStep4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 37</value>
+  </data>
+  <data name="btnRootStep4.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnRootStep4.Text" xml:space="preserve">
+    <value>Step 4 - New Rom Install</value>
+  </data>
+  <data name="&gt;&gt;btnRootStep4.Name" xml:space="preserve">
+    <value>btnRootStep4</value>
+  </data>
+  <data name="&gt;&gt;btnRootStep4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRootStep4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnRootStep4.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <metadata name="OpenRomFile.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>33, 13</value>
+  </metadata>
+  <data name="lblHeading.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 12</value>
+  </data>
+  <data name="lblHeading.Size" type="System.Drawing.Size, System.Drawing">
+    <value>688, 55</value>
+  </data>
+  <data name="lblHeading.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblHeading.Text" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;lblHeading.Name" xml:space="preserve">
+    <value>lblHeading</value>
+  </data>
+  <data name="&gt;&gt;lblHeading.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHeading.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblHeading.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblApplicationManagement.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblApplicationManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>592, 122</value>
+  </data>
+  <data name="lblApplicationManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 13</value>
+  </data>
+  <data name="lblApplicationManagement.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblApplicationManagement.Text" xml:space="preserve">
+    <value>Applications &amp; Settings Management</value>
+  </data>
+  <data name="lblApplicationManagement.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblApplicationManagement.Name" xml:space="preserve">
+    <value>lblApplicationManagement</value>
+  </data>
+  <data name="&gt;&gt;lblApplicationManagement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblApplicationManagement.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblApplicationManagement.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="btnBackupAppsToSDCARD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>591, 147</value>
+  </data>
+  <data name="btnBackupAppsToSDCARD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 37</value>
+  </data>
+  <data name="btnBackupAppsToSDCARD.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnBackupAppsToSDCARD.Text" xml:space="preserve">
+    <value>Backup Apps to SDCARD</value>
+  </data>
+  <data name="btnBackupAppsToSDCARD.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnBackupAppsToSDCARD.Name" xml:space="preserve">
+    <value>btnBackupAppsToSDCARD</value>
+  </data>
+  <data name="&gt;&gt;btnBackupAppsToSDCARD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBackupAppsToSDCARD.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnBackupAppsToSDCARD.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btnReinstallAllAppsFromSDCARD.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnReinstallAllAppsFromSDCARD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>696, 146</value>
+  </data>
+  <data name="btnReinstallAllAppsFromSDCARD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 38</value>
+  </data>
+  <data name="btnReinstallAllAppsFromSDCARD.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnReinstallAllAppsFromSDCARD.Text" xml:space="preserve">
+    <value>Reinstall Apps from SDCARD</value>
+  </data>
+  <data name="btnReinstallAllAppsFromSDCARD.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnReinstallAllAppsFromSDCARD.Name" xml:space="preserve">
+    <value>btnReinstallAllAppsFromSDCARD</value>
+  </data>
+  <data name="&gt;&gt;btnReinstallAllAppsFromSDCARD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReinstallAllAppsFromSDCARD.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnReinstallAllAppsFromSDCARD.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnStartDownloads.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 147</value>
+  </data>
+  <data name="btnStartDownloads.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 39</value>
+  </data>
+  <data name="btnStartDownloads.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="btnStartDownloads.Text" xml:space="preserve">
+    <value>Step 1 - Downloads!</value>
+  </data>
+  <data name="&gt;&gt;btnStartDownloads.Name" xml:space="preserve">
+    <value>btnStartDownloads</value>
+  </data>
+  <data name="&gt;&gt;btnStartDownloads.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStartDownloads.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnStartDownloads.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="chbxROOTImage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbxROOTImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chbxROOTImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 521</value>
+  </data>
+  <data name="chbxROOTImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 17</value>
+  </data>
+  <data name="chbxROOTImage.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="chbxROOTImage.Text" xml:space="preserve">
+    <value>Root Image</value>
+  </data>
+  <data name="&gt;&gt;chbxROOTImage.Name" xml:space="preserve">
+    <value>chbxROOTImage</value>
+  </data>
+  <data name="&gt;&gt;chbxROOTImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbxROOTImage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chbxROOTImage.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblROOTRequired.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblROOTRequired.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 499</value>
+  </data>
+  <data name="lblROOTRequired.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 13</value>
+  </data>
+  <data name="lblROOTRequired.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lblROOTRequired.Text" xml:space="preserve">
+    <value>Required Downloads For R00T</value>
+  </data>
+  <data name="&gt;&gt;lblROOTRequired.Name" xml:space="preserve">
+    <value>lblROOTRequired</value>
+  </data>
+  <data name="&gt;&gt;lblROOTRequired.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblROOTRequired.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblROOTRequired.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="prgsTestProgressBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 559</value>
+  </data>
+  <data name="prgsTestProgressBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 21</value>
+  </data>
+  <data name="prgsTestProgressBar.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;prgsTestProgressBar.Name" xml:space="preserve">
+    <value>prgsTestProgressBar</value>
+  </data>
+  <data name="&gt;&gt;prgsTestProgressBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;prgsTestProgressBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;prgsTestProgressBar.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblTotalDownloaded.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTotalDownloaded.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 594</value>
+  </data>
+  <data name="lblTotalDownloaded.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 13</value>
+  </data>
+  <data name="lblTotalDownloaded.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="lblTotalDownloaded.Text" xml:space="preserve">
+    <value>Total Downloaded</value>
+  </data>
+  <data name="&gt;&gt;lblTotalDownloaded.Name" xml:space="preserve">
+    <value>lblTotalDownloaded</value>
+  </data>
+  <data name="&gt;&gt;lblTotalDownloaded.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTotalDownloaded.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblTotalDownloaded.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="chbxRecoveryImage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chbxRecoveryImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chbxRecoveryImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 521</value>
+  </data>
+  <data name="chbxRecoveryImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 17</value>
+  </data>
+  <data name="chbxRecoveryImage.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="chbxRecoveryImage.Text" xml:space="preserve">
+    <value>Recovery Image</value>
+  </data>
+  <data name="&gt;&gt;chbxRecoveryImage.Name" xml:space="preserve">
+    <value>chbxRecoveryImage</value>
+  </data>
+  <data name="&gt;&gt;chbxRecoveryImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chbxRecoveryImage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chbxRecoveryImage.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="radCyanLightBoltFroyo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radCyanLightBoltFroyo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 46</value>
+  </data>
+  <data name="radCyanLightBoltFroyo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 17</value>
+  </data>
+  <data name="radCyanLightBoltFroyo.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="radCyanLightBoltFroyo.Text" xml:space="preserve">
+    <value>Cyanogen Light Bolt Froyo</value>
+  </data>
+  <data name="&gt;&gt;radCyanLightBoltFroyo.Name" xml:space="preserve">
+    <value>radCyanLightBoltFroyo</value>
+  </data>
+  <data name="&gt;&gt;radCyanLightBoltFroyo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radCyanLightBoltFroyo.Parent" xml:space="preserve">
+    <value>grbxROMToInstall</value>
+  </data>
+  <data name="&gt;&gt;radCyanLightBoltFroyo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radCyanLightBolt.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radCyanLightBolt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 46</value>
+  </data>
+  <data name="radCyanLightBolt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 17</value>
+  </data>
+  <data name="radCyanLightBolt.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="radCyanLightBolt.Text" xml:space="preserve">
+    <value>Cyanogen Light Bolt</value>
+  </data>
+  <data name="&gt;&gt;radCyanLightBolt.Name" xml:space="preserve">
+    <value>radCyanLightBolt</value>
+  </data>
+  <data name="&gt;&gt;radCyanLightBolt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radCyanLightBolt.Parent" xml:space="preserve">
+    <value>grbxROMToInstall</value>
+  </data>
+  <data name="&gt;&gt;radCyanLightBolt.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radIceRom.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radIceRom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 46</value>
+  </data>
+  <data name="radIceRom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 17</value>
+  </data>
+  <data name="radIceRom.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="radIceRom.Text" xml:space="preserve">
+    <value>Ice Rom</value>
+  </data>
+  <data name="&gt;&gt;radIceRom.Name" xml:space="preserve">
+    <value>radIceRom</value>
+  </data>
+  <data name="&gt;&gt;radIceRom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radIceRom.Parent" xml:space="preserve">
+    <value>grbxROMToInstall</value>
+  </data>
+  <data name="&gt;&gt;radIceRom.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="radEvilEris.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radEvilEris.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 46</value>
+  </data>
+  <data name="radEvilEris.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 17</value>
+  </data>
+  <data name="radEvilEris.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="radEvilEris.Text" xml:space="preserve">
+    <value>Evil Eris</value>
+  </data>
+  <data name="&gt;&gt;radEvilEris.Name" xml:space="preserve">
+    <value>radEvilEris</value>
+  </data>
+  <data name="&gt;&gt;radEvilEris.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radEvilEris.Parent" xml:space="preserve">
+    <value>grbxROMToInstall</value>
+  </data>
+  <data name="&gt;&gt;radEvilEris.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="radxtrROM.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radxtrROM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radxtrROM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>519, 19</value>
+  </data>
+  <data name="radxtrROM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 17</value>
+  </data>
+  <data name="radxtrROM.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="radxtrROM.Text" xml:space="preserve">
+    <value>xtrROM</value>
+  </data>
+  <data name="&gt;&gt;radxtrROM.Name" xml:space="preserve">
+    <value>radxtrROM</value>
+  </data>
+  <data name="&gt;&gt;radxtrROM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radxtrROM.Parent" xml:space="preserve">
+    <value>grbxROMToInstall</value>
+  </data>
+  <data name="&gt;&gt;radxtrROM.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="radVanillaDroid.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radVanillaDroid.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radVanillaDroid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 19</value>
+  </data>
+  <data name="radVanillaDroid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 17</value>
+  </data>
+  <data name="radVanillaDroid.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="radVanillaDroid.Text" xml:space="preserve">
+    <value>VanillaDroid</value>
+  </data>
+  <data name="&gt;&gt;radVanillaDroid.Name" xml:space="preserve">
+    <value>radVanillaDroid</value>
+  </data>
+  <data name="&gt;&gt;radVanillaDroid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radVanillaDroid.Parent" xml:space="preserve">
+    <value>grbxROMToInstall</value>
+  </data>
+  <data name="&gt;&gt;radVanillaDroid.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="radKaosLegendary.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radKaosLegendary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 19</value>
+  </data>
+  <data name="radKaosLegendary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 17</value>
+  </data>
+  <data name="radKaosLegendary.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="radKaosLegendary.Text" xml:space="preserve">
+    <value>Kaos Legendary</value>
+  </data>
+  <data name="&gt;&gt;radKaosLegendary.Name" xml:space="preserve">
+    <value>radKaosLegendary</value>
+  </data>
+  <data name="&gt;&gt;radKaosLegendary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radKaosLegendary.Parent" xml:space="preserve">
+    <value>grbxROMToInstall</value>
+  </data>
+  <data name="&gt;&gt;radKaosLegendary.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="radErisOfficial.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radErisOfficial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 19</value>
+  </data>
+  <data name="radErisOfficial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 17</value>
+  </data>
+  <data name="radErisOfficial.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="radErisOfficial.Text" xml:space="preserve">
+    <value>Eris Official</value>
+  </data>
+  <data name="&gt;&gt;radErisOfficial.Name" xml:space="preserve">
+    <value>radErisOfficial</value>
+  </data>
+  <data name="&gt;&gt;radErisOfficial.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radErisOfficial.Parent" xml:space="preserve">
+    <value>grbxROMToInstall</value>
+  </data>
+  <data name="&gt;&gt;radErisOfficial.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="radSenseable2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radSenseable2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 19</value>
+  </data>
+  <data name="radSenseable2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 17</value>
+  </data>
+  <data name="radSenseable2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radSenseable2.Text" xml:space="preserve">
+    <value>Senseable</value>
+  </data>
+  <data name="&gt;&gt;radSenseable2.Name" xml:space="preserve">
+    <value>radSenseable2</value>
+  </data>
+  <data name="&gt;&gt;radSenseable2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radSenseable2.Parent" xml:space="preserve">
+    <value>grbxROMToInstall</value>
+  </data>
+  <data name="&gt;&gt;radSenseable2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="grbxROMToInstall.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 327</value>
+  </data>
+  <data name="grbxROMToInstall.Size" type="System.Drawing.Size, System.Drawing">
+    <value>644, 102</value>
+  </data>
+  <data name="grbxROMToInstall.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="grbxROMToInstall.Text" xml:space="preserve">
+    <value>                                             Select 1 (ONE) ROM to DOWNLOAD to your PC.</value>
+  </data>
+  <data name="&gt;&gt;grbxROMToInstall.Name" xml:space="preserve">
+    <value>grbxROMToInstall</value>
+  </data>
+  <data name="&gt;&gt;grbxROMToInstall.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grbxROMToInstall.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grbxROMToInstall.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnFlashSplashImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>591, 261</value>
+  </data>
+  <data name="btnFlashSplashImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 36</value>
+  </data>
+  <data name="btnFlashSplashImage.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="btnFlashSplashImage.Text" xml:space="preserve">
+    <value>Flash Splash Image</value>
+  </data>
+  <data name="btnFlashSplashImage.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnFlashSplashImage.Name" xml:space="preserve">
+    <value>btnFlashSplashImage</value>
+  </data>
+  <data name="&gt;&gt;btnFlashSplashImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFlashSplashImage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnFlashSplashImage.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnBackupAppSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>591, 189</value>
+  </data>
+  <data name="btnBackupAppSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 36</value>
+  </data>
+  <data name="btnBackupAppSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="btnBackupAppSettings.Text" xml:space="preserve">
+    <value>Backup Apps Settings</value>
+  </data>
+  <data name="btnBackupAppSettings.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnBackupAppSettings.Name" xml:space="preserve">
+    <value>btnBackupAppSettings</value>
+  </data>
+  <data name="&gt;&gt;btnBackupAppSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBackupAppSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnBackupAppSettings.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>696, 189</value>
+  </data>
+  <data name="Button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 36</value>
+  </data>
+  <data name="Button1.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="Button1.Text" xml:space="preserve">
+    <value>Restore Apps Settings</value>
+  </data>
+  <data name="Button1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Button1.Name" xml:space="preserve">
+    <value>Button1</value>
+  </data>
+  <data name="&gt;&gt;Button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>677, 245</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Extra's</value>
+  </data>
+  <data name="Label1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 246</value>
+  </data>
+  <data name="Button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Button2.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="Button2.Text" xml:space="preserve">
+    <value>Button2</value>
+  </data>
+  <data name="&gt;&gt;Button2.Name" xml:space="preserve">
+    <value>Button2</value>
+  </data>
+  <data name="&gt;&gt;Button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>50</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 13</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>819, 633</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>HTC Eris Master Application By ECLIPS3 and jamezelle of XDA-Developers</value>
+  </data>
+  <data name="&gt;&gt;OpenRomFile.Name" xml:space="preserve">
+    <value>OpenRomFile</value>
+  </data>
+  <data name="&gt;&gt;OpenRomFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
